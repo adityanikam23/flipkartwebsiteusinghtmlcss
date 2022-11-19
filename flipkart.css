@@ -1,0 +1,175 @@
+*{
+    text-transform: capitalize;
+    margin: 0;
+}
+nav{
+    background-color: blue;
+    height: 90px;
+    position: relative;
+}
+.image .first-image{
+    width: 150px;
+    padding-top: 22px;
+    padding-left: 140px;
+    
+}
+.head{
+    color: white;
+    position: absolute;
+    top: 25px;
+    left: 350px;
+}
+.right-content button{
+    padding: 5px;
+    width: 100px;
+    background-color: white;
+    color: blue;
+    font-weight: 600;
+    border: 0;
+    font-size: large;
+    position: absolute;
+    top: 5px;
+    right: 400px;
+    margin-top: 30px;
+}
+.right-content .more-btn{
+    position: absolute;
+    right: 300px;
+    top: 35px;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header{
+    background-image: url(/flipkartimages/ship.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.my-header h1{
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 50px;
+    font-family: cursive;
+    font-size: 60px;
+}
+/* .my-header .middle-section{
+    background-color: whitesmoke;
+    height: 150px;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+.middle-section input{
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.input .search{
+    padding: 10px;
+    width: 50%;
+    margin-left: 250px;
+   font-size: larger;
+   font-weight: bolder;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+}
+label{
+    color: black;
+    font-weight: 600;
+}
+.input button{
+    padding: 12px;
+    margin-left: 0;
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    border: 0;
+} */
+.h1{
+    padding-left: 30px;
+    padding-top: 50px;
+    font-family: cursive;
+}
+#main-section{
+    display: flex;
+}
+#main-article{
+    display: flex;
+}
+.flex1 img{
+    box-shadow: 10px 10px 8px rgba(187, 188, 193, 0.841);
+}
+.flex2 img{
+    box-shadow: 10px 10px 8px rgba(187, 188, 193, 0.841);
+}
+.flex3 img{
+    box-shadow: 10px 10px 8px rgba(187, 188, 193, 0.841);
+}
+.flex1{
+    flex: 3;
+    margin: 10px;
+}
+.flex2{
+    flex: 3;
+    margin: 10px;
+}
+.flex3{
+    flex: 3;
+    margin: 10px;
+}
+#main-footer{
+    background-color: black;
+    height: 300px;
+    margin: 10px;
+}
+
+.middle-image{
+    width: 100%;
+}
+.bank-offer{
+    font-family: cursive;
+    padding: 50px;
+}
+.image-alert img{
+    width: 98%;
+    margin: 10px;
+}
+#main-footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+#main-footer{
+    display: flex;
+    color: white;
+}
+.flex-foot1{
+    flex: 6;
+    padding: 20px;
+}
+.flex-foot2{
+    flex: 6;
+    padding: 20px;
+}
+.flex-foot3{
+    flex: 6;
+    padding: 20px;
+}
+.flex-foot4{
+    flex: 6;
+    padding: 20px;
+}
+.flex-foot5{
+    flex: 6;
+    padding: 20px;
+}
+.flex-foot6{
+    flex: 6;
+    padding: 20px;
+}
+.foot-head{
+    color: rgba(226, 198, 198, 0.734);
+}
